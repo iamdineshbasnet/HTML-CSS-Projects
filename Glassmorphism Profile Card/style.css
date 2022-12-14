@@ -1,0 +1,117 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Poppins;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, .2);
+}
+
+body {
+  background: url(img.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container {
+  padding: 20px 40px;
+  width: 350px;
+  border-radius: 10px;
+  background: linear-gradient(108.16deg,rgba(255, 255, 255, 0.75) 3.4%,rgba(255, 255, 255, 0.2) 97.55%);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  backdrop-filter: blur(6px);
+  text-align: center;
+}
+
+.image {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  margin: 0 auto;
+  overflow: hidden;
+}
+.image img {
+  width: 100%;
+  height: 100%;
+}
+.title {
+  margin: 30px 0;
+}
+.title h1 {
+  font-size: 20px;
+  color: #fff;
+}
+.title p {
+  font-size: 16px;
+}
+.content {
+  display: flex;
+  justify-content: space-between;
+  margin: 30px 0;
+}
+.content .content-item h3 {
+  font-weight: normal;
+  font-size: 16px;
+}
+.cta {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 0;
+}
+.cta button {
+  width: 120px;
+  height: 35px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+.cta button:first-child {
+  color: #fff;
+  backdrop-filter: blur(6px);
+  border: 0.5px solid rgba(253, 142, 128, 0.2);
+  background: linear-gradient(135deg,rgba(252, 76, 79, 0.7),rgba(255, 168, 99, 0.48));
+  transition: all .3s;
+}
+.cta button:first-child:hover{
+    background: transparent;
+    border: 1px solid rgba(255, 255, 255, 0.3);  
+    color: #000;
+}
+.cta button:nth-child(2) {
+  backdrop-filter: blur(6px);
+  background: linear-gradient(108.16deg,rgba(255, 255, 255, 0.75) 3.4%,rgba(255, 255, 255, 0.2) 97.55%);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+.social-media{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+    padding: 0 50px;
+    
+}
+.social-media .icons{
+    height: 30px;
+    width: 30px;
+    backdrop-filter: blur(6px);
+    background: linear-gradient(108.16deg,rgba(255, 255, 255, 0.75) 3.4%, rgba(255, 255, 255, 0.2) 97.55%);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 50%;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all .3s;
+}
+.icons .icon{
+    color: #aaa;
+    font-size: 16px;
+}
+.icons:hover{
+    margin-top: -5px;
+}
+.icons:hover .icon{
+    color: #000;
+}
