@@ -1,0 +1,81 @@
+*{margin: 0;padding: 0;box-sizing: border-box;font-family: Poppins;}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: rgb(220, 220, 220);
+}
+form{
+    width: 300px;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, .1),
+                -10px -10px 20px rgba(255, 255, 255, .6);
+    border-radius: 10px;
+    padding: 15px 30px;
+}
+.heading{
+    margin: 30px 0;
+}
+.heading h1{
+    text-align: center;
+    font-size: 24px;
+    font-weight: 500;
+}
+.input-field{
+    margin: 40px 0;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, .1),
+                -10px -10px 20px rgba(255, 255, 255, .6);
+    padding: 5px 20px;
+    border-radius: 20px;
+}
+.input-field .icon{
+    color: #aaa;
+}
+.input-field input{
+    border: none;
+    outline: none;
+    background: transparent;
+    margin: 0 5px;
+    color: #aaa;
+    font-size: 14px;
+    padding: 5px 0;
+}
+.input-field input:focus{
+    color: #000;
+}
+
+.cta{
+    text-align: center;
+    margin: 40px 0;
+}
+.cta button{
+    padding: 8px 20px;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, .1),
+                -10px -10px 20px rgba(255, 255, 255, .6);
+    border: none;
+    width: 100%;
+    font-size: 14px;
+    font-weight: 500;
+    color: #aaa;
+    border-radius: 20px;
+    background: transparent;
+    cursor: pointer;
+    transition: color .3s;
+}
+.cta button:hover{
+    color: #000;
+}
+.footer{
+    text-align: center;
+}
+.footer span,
+.footer span a{
+    font-size: 14px;
+    color: #aaa;
+    text-decoration: none;
+    transition: all .3s ease;
+}
+.footer span a:hover{
+    color: #000;
+}
