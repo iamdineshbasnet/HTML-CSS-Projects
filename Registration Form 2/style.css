@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Poppins;
+}
+body{
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+    align-items: center;
+    background: #f6f6f6;
+}
+
+
+.container{
+    width: 400px;
+    outline: 1px solid #aaa;
+    border-radius: 5px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, .3);
+}
+.title-text{
+    padding: 10px 30px;
+    background: #18AE91;
+    border-radius: 5px;
+    box-shadow: 0 6px #007860;
+}
+.title-text h1{
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+.hero-input{
+    padding: 0 30px;
+}
+.input-box{
+    margin: 15px 0;
+}
+.input-box  span{
+    color: red;
+}
+.input-field{
+    display: flex;
+    align-items: center;
+    outline: 1px solid #aaa;
+    padding-left: 10px;
+}
+.input-field > input{
+    width: 100%;
+    margin-left: 10px;
+    line-height: 30px;
+    background: transparent;
+    border: none;
+    outline: none;
+}
+.input-box:nth-child(5){
+    display: flex;
+    gap: 30px;
+}
+.icon{
+    color: #aaa;
+}
+.hero-gender{
+    margin: 20px 0;
+}
+h3{
+    margin: 5px 0;
+    font-size: 16px;
+    font-weight: 400;
+}
+.gender{
+    display: flex;
+}
+.gender-details{
+    display: flex;
+    margin-right: 80px;
+}
+.gender-details label{
+    color: #aaa;
+    font-size: 16px;
+    font-weight: 400;
+    margin-left: 10px;
+}
+.dob{
+    margin: 20px 0;
+}
+.dob > input{
+    width: 100%;
+    background: transparent;
+    outline: none;
+    border: 1px solid #aaa;
+    line-height: 30px;
+    padding: 0 10px;
+}
+
+
+.btn{
+    text-align: right;
+    background: #ddd;
+    line-height: 80px;
+    border-top: 1px solid #aaa;
+}
+.btn button{
+    margin-right: 15px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    background: #18AE91;
+    box-shadow: 0 6px #007860;
+    border: none;
+    border-radius: 3px;
+    padding: 5px 20px;
+    cursor: pointer;
+    transition: all .3s;
+}
+.btn button:active{
+    transform: translateY(5px);
+    box-shadow: none;
+}

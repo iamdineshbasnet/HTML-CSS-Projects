@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Poppins;
+}
+:root{
+    --border-color: #cccccc;
+    --bg-color: linear-gradient(135deg,rgba(0, 224, 255, .9), rgba(189, 0, 255, .75));
+    --bg-color-reverse: linear-gradient(135deg, rgba(189, 0, 255, .75), rgba(0, 224, 255, .9));
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: var(--bg-color);
+}
+.container{
+    width: 500px;
+    padding: 15px 30px;
+    background: rgb(238, 237, 237);
+    border-radius: 10px;
+}
+
+/* Styling Title Class */
+.title{
+    text-align: center;
+    margin: 20px 0;
+}
+.title h1{
+    font-size: 24px;
+    font-weight: 500;
+}
+
+/* Styling User input Class */
+.hero-box{
+    width: 100%;
+    margin: 20px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.hero-box input{
+    width: 100%;
+    padding-left: 5px;
+    line-height: 30px;
+    border: 1px solid #ccc;
+    background: transparent;
+    outline: none;
+}
+.icon{
+    border: 1px solid #ccc;
+    border-right: none;
+    padding: 7px;
+    background: #ddd;
+}
+
+.input-field{
+    display: flex;
+    align-items: center;
+}
+
+/* Styling Gender Section */
+.gender{
+    display: flex;
+    margin: 20px 0;
+}
+.gender .gender-details{
+    margin-right: 30px;
+    display: flex;
+    align-items: center;
+}
+.gender-details > label{
+    margin-left: 10px;
+}
+
+
+/* Styling Select Element Here */
+.country{
+    margin: 20px 0;
+}
+.country select{
+    width: 100%;
+    background: transparent;
+    padding: 5px 10px;
+}
+
+/* Styling Terms Class */
+.terms{
+    display: flex;
+    margin: 20px 0;
+}
+.terms > label{
+    margin-left: 10px;
+}
+
+input[type="radio"],
+input[type="checkbox"]{
+    cursor: pointer;
+}
+
+/* Styling button */
+.btn button{
+    width: 100%;
+    padding: 8px 0;
+    background-image: var(--bg-color);
+    border: none;
+    border-radius: 3px;
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    cursor: pointer;
+    transition: background-image 5s ease;
+}
+.btn button:hover{
+    background-image: var(--bg-color-reverse);
+}
